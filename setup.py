@@ -37,6 +37,6 @@ setup(
         'django-positions>=0.5.0',
         'Django>=1.4.3'
     ],
-    package_data={'joyride': ['templates/joyride/*.html'] +
+    package_data={'joyride': ['migrations/*.py', 'templates/joyride/*.html'] +
                   _static_files('static')}
 )
